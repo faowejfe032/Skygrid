@@ -3,7 +3,7 @@ The Skygrid plugin modifies the generation of Minecraft worlds so as to mimic th
 This plugin is highly configurable to suit a broad range of needs. It was built using the Spigot API
 @ https://spigotmc.org
 
-###Features
+### Features
 The Skygrid plugin comes packed with various features such as:
 
 - Chunk generators for the overworld, nether and end
