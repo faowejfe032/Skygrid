@@ -1,4 +1,4 @@
-##Skygrid
+## Skygrid
 The Skygrid plugin modifies the generation of Minecraft worlds so as to mimic the 'Skygrid' game-mode.
 This plugin is highly configurable to suit a broad range of needs. It was built using the Spigot API
 @ https://spigotmc.org
@@ -14,7 +14,7 @@ The Skygrid plugin comes packed with various features such as:
 
 - An optional random teleport command /rtp that works in all dimensions and is extremely configurable
 
-###Installation
+### Installation
 The installation of the Skygrid plugin to your server is very straight forward.
 
 Some prerequisites to this guide are that you have a spigot (or modified version of Spigot) server set-up already and that you have downloaded the Skygrid plugin from the SpigotMC forums.
@@ -39,8 +39,8 @@ If you do not want to use a Skygrid generator for a particular dimension, then s
 
 4) Start your server!
 
-###Configuration
+### Configuration
 Inside the configuration file you can modify almost every aspect of the plugin. There are instructions inside it that explain what each value represents and the effect modifying it would have
 
-###Additional Info
+### Additional Info
 The plugin might be compatible with versions lower than 1.16, I haven't tested the plugin on those versions.​
