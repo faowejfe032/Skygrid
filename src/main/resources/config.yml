@@ -1,0 +1,172 @@
+
+# enable/disable the rtp command
+rtp: true
+
+# change the rtp command cool-down (seconds)
+rtp-cooldown: 60
+
+# the random teleport max distance from location x and z coordinate 0
+rtp-max-distance: 1000
+
+
+
+# disables leaves breaking naturally
+disable-natural-leaf-break: true
+
+
+
+# Set the default block for each dimension, this is the block that will spawn
+# in the event that you don't allocate all available probability.
+overworld-default: STONE
+nether-default: NETHERRACK
+end-default: END_STONE
+
+
+
+# Enable/Disable populating chests with items
+populate-chests: true
+
+# Chance that each item will be added to a chest, works differently from block
+# probabilities in that each chance here is independent e.g. you can set
+# 'COAL: 80' and 'GOLDEN_SWORD: 80' and each has an 80% chance of spawning inside a chest
+chest-items:
+  COAL: 50
+  GOLDEN_SWORD: 25
+
+
+
+# These blocks will spawn on top of grass blocks with the specified percentage.
+# For example, 'OAK_SAPLING: 5' means that there is a 5% chance an oak tree
+# sapling will spawn on top of a grass block.
+grassblock-accessories:
+  OAK_SAPLING: 1.5
+  SPRUCE_SAPLING: 1.5
+  ACACIA_SAPLING: 1.5
+  DARK_OAK_SAPLING: 1.5
+  BIRCH_SAPLING: 1.5
+  JUNGLE_SAPLING: 1.5
+  DANDELION: 1.5
+  POPPY: 1.5
+  BLUE_ORCHID: 1.5
+  ALLIUM: 1.5
+  AZURE_BLUET: 1.5
+  RED_TULIP: 1.5
+  ORANGE_TULIP: 1.5
+  WHITE_TULIP: 1.5
+  PINK_TULIP: 1.5
+  OXEYE_DAISY: 1.5
+  CORNFLOWER: 1.5
+  LILY_OF_THE_VALLEY: 1.5
+  LILAC: 1.5
+  ROSE_BUSH: 1.5
+  PEONY: 1.5
+
+
+
+# These blocks will spawn on top of farmland blocks with the specified percentage.
+# For example, 'OAK_SAPLING: 5' means that there is a 5% chance an oak tree
+# sapling will spawn on top of a grass block.
+farmland-accessories:
+  CARROTS: 25
+  POTATOES: 25
+  SUGAR_CANE: 25
+  WHEAT: 25
+
+
+
+# Add or remove blocks here and set the probability out of 100 that they will spawn.
+# For example, 'COPPER_ORE: 0.25' means that there is a 0.25% chance that a block will spawn
+# as copper ore. Total probability allocated should not exceed 100!
+overworld:
+
+  # ores
+  COPPER_ORE: 0.25
+  COAL_ORE: 0.5
+  IRON_ORE: 0.25
+  GOLD_ORE: 0.15
+  DIAMOND_ORE: 0.05
+  EMERALD_ORE: 0.05
+  LAPIS_ORE: 0.15
+  REDSTONE_ORE: 0.15
+  DEEPSLATE_COPPER_ORE: 0.25
+  DEEPSLATE_COAL_ORE: 0.5
+  DEEPSLATE_IRON_ORE: 0.25
+  DEEPSLATE_GOLD_ORE: 0.15
+  DEEPSLATE_DIAMOND_ORE: 0.05
+  DEEPSLATE_EMERALD_ORE: 0.05
+  DEEPSLATE_LAPIS_ORE: 0.15
+  DEEPSLATE_REDSTONE_ORE: 0.15
+
+  # common blocks
+  GRASS_BLOCK: 40
+  COBBLESTONE: 5
+  STONE: 15
+  DIRT: 2
+  SAND: 3
+  RED_SAND: 1
+  GRANITE: 2
+  DIORITE: 2
+  ANDESITE: 2
+  DEEPSLATE: 3
+  AMETHYST_BLOCK: 0.1
+  FARMLAND: 0.25
+  CLAY: 3
+  TERRACOTTA: 2
+
+  # wood and leaves
+  OAK_LEAVES: 0.25
+  OAK_LOG: 0.25
+  OAK_PLANKS: 1
+  DARK_OAK_LEAVES: 0.25
+  DARK_OAK_LOG: 0.25
+  DARK_OAK_PLANKS: 1
+  ACACIA_LEAVES: 0.25
+  ACACIA_LOG: 0.25
+  ACACIA_PLANKS: 1
+  BIRCH_LEAVES: 0.25
+  BIRCH_LOG: 0.25
+  BIRCH_PLANKS: 1
+  SPRUCE_LEAVES: 0.25
+  SPRUCE_LOG: 0.25
+  SPRUCE_PLANKS: 1
+
+  # natural structure blocks
+  STONE_BRICKS: 0.1
+  CRAFTING_TABLE: 0.1
+  CHEST: 0.1
+
+  # fun
+  CAKE: 0.2
+  MELON: 0.1
+  PUMPKIN: 0.1
+
+
+
+nether:
+  NETHERRACK: 10
+  BASALT: 15
+  BLACKSTONE: 15
+  GLOWSTONE: 0.25
+  NETHER_BRICKS: 5
+  NETHER_GOLD_ORE: 0.5
+  SOUL_SAND: 15
+  BONE_BLOCK: 5
+  CRIMSON_NYLIUM: 5
+  WARPED_NYLIUM: 5
+  SHROOMLIGHT: 0.25
+  MAGMA_BLOCK: 2.5
+  GRAVEL: 1
+  NETHER_QUARTZ_ORE: 0.5
+  LAVA: 3
+  CRIMSON_STEM: 2
+  NETHER_WART_BLOCK: 2
+  WARPED_STEM: 2
+  WARPED_WART_BLOCK: 2
+  GILDED_BLACKSTONE: 0.2
+
+
+end:
+  END_STONE: 80
+  OBSIDIAN: 20
+
+
