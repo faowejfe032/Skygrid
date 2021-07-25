@@ -26,7 +26,7 @@ I also HIGHLY suggest you use the server jar known as Tuinity, which is a fork o
 2) Download the Skygrid plugin from here and drop it into your plugins folder.
 
 3) Copy the text below, open your bukkit.yml file and then paste the copied text at the bottom:
-
+`
 worlds:
   world:
     generator: Skygrid
@@ -34,7 +34,7 @@ worlds:
     generator: Skygrid
   world_the_end:
     generator: Skygrid
-
+`
 If you do not want to use a Skygrid generator for a particular dimension, then simply exclude the dimension from the bukkit.yml file.
 
 4) Start your server!
